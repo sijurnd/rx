@@ -3,6 +3,28 @@
 @import './scss/material';
 @import './scss/main';
 @import './scss/utils';
-@import './scss/responsive';
 @import './scss/variables';
 @import './scss/theme';
+.rx-header{
+  padding: 0px !important;
+}
+.rx-header .transform-right{
+  padding: 0px !important;
+  width: 250px;
+  height: 64px;
+  background-color:#fff;
+}
+.rx-header .transform-right .nav-brand{
+  background-color: #fff !important;  
+  right:78%;
+  width: 278px;
+  height: 64px;
+  transform: skew(-41deg) !important;
+  background-color:#fff;
+}
+.rx-user-name{
+  font-size:14px;
+}
+.rx-logo{
+  transform: skew(37deg) !important;
+}

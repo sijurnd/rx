@@ -8,9 +8,6 @@
   top: 0;
   z-index: 1000;
 }
-.nav-brand {
-  text-align: center;
-}
 .topnav-icon {
   text-decoration: none;
   display: flex;
@@ -44,4 +41,7 @@
   .hidden-sm {
       display: none;
   }
+}
+.mat-toolbar.mat-primary{
+  background-color: $primary-color;
 }

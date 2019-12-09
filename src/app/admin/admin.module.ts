@@ -12,6 +12,7 @@ import { AdminRoutingModule } from './admin-routing.module';
 import { LayoutComponent } from './layout/layout.component';
 import { TopNavComponent } from './layout/top-nav/top-nav.component';
 import { SideNavComponent } from './layout/side-nav/side-nav.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -25,6 +26,6 @@ import { SideNavComponent } from './layout/side-nav/side-nav.component';
     MatMenuModule,
     MatListModule
   ],
-  declarations: [LayoutComponent, TopNavComponent, SideNavComponent]
+  declarations: [LayoutComponent, TopNavComponent, SideNavComponent, FooterComponent]
 })
 export class AdminModule {}
