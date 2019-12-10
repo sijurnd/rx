@@ -28,6 +28,12 @@
   .visible-md {
       display: block;
   }
+  .transform-right{
+    display: none;
+  }
+  .menu-bar{
+    display: none;
+  }
 }
 @media screen and (max-width: 768px) {
   .visible-sm {
@@ -44,4 +50,10 @@
 }
 .mat-toolbar.mat-primary{
   background-color: $primary-color;
+}
+.menu-bar{
+  height: 36px;
+  background-color: #efefef;
+  font-size: 13px;
+  font-weight: normal;
 }

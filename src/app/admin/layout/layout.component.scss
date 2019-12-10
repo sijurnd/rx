@@ -20,3 +20,11 @@
     }
   }
 }
+.visible-md {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .visible-md {
+    display: block;
+  }
+}
