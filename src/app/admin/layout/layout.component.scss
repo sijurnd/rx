@@ -28,3 +28,46 @@
     display: block;
   }
 }
+.rx-footer{
+  height:64px;
+  background-color: #c2d0de;
+  font-size: 12px;
+  .left-content{
+      float: left;
+      padding:10px ;
+  }
+  .right-content {
+      width: 350px;
+      height: 62px;
+      background: white;
+      position: relative;
+      float: right;
+      margin-top: 2px;
+  }
+  .right-content:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -83px;
+      width: 36px;
+      height: 0px;
+      border-top: 62px solid transparent;
+      border-right: 47px solid white;
+  }
+  .right-content img{
+      transform: skew(0deg) !important;
+      padding: 3px 0;
+  }
+  .footer-logo-1{
+      margin-left:10px;
+  }
+  .footer-logo-2{
+      margin-left:50px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .right-content{
+      display: none;
+  }
+}

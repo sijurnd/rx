@@ -52,8 +52,15 @@
   background-color: $primary-color;
 }
 .menu-bar{
-  height: 36px;
   background-color: #efefef;
-  font-size: 13px;
-  font-weight: normal;
+  height: 44px;
+  // font-size: 13px;
+  // font-weight: normal;
+}
+.menu-bar{
+  button:focus, button:active, button:visited, .active { 
+    padding-bottom: 6px;
+    border-bottom: 2px solid #EA8536;
+    border-radius: 0px;
+  }
 }

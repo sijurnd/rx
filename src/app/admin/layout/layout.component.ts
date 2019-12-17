@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs';
 export class LayoutComponent implements OnInit, OnDestroy {
   sideNavOpened = true;
   sideNavMode: 'side' | 'over' = 'side';
-  toolBarHeight = 64;
+  toolBarHeight = 108;
   private readonly mediaWatcher: Subscription;
   constructor(media: MediaObserver) {
     this.mediaWatcher = media.media$.subscribe((change: MediaChange) => {
@@ -26,7 +26,7 @@ export class LayoutComponent implements OnInit, OnDestroy {
       if (change.mqAlias === 'xs') {
         this.toolBarHeight = 56;
       } else {
-        this.toolBarHeight = 64;
+        this.toolBarHeight = 108;
       }
     });
   }
